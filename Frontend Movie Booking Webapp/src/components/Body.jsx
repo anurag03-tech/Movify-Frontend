@@ -10,7 +10,6 @@ const Body = () => {
   return (
     <>
       <div className="">
-        <MainBanner></MainBanner>
         <CurrentlyPlaying></CurrentlyPlaying>
         <CommingSoon></CommingSoon>
         <PealsOfAzerbaijani></PealsOfAzerbaijani>

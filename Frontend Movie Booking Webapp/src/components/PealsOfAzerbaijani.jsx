@@ -2,7 +2,7 @@ import React from "react";
 
 const PealsOfAzerbaijani = () => {
   return (
-    <div className="px-16 pb-6 pt-16">
+    <div className="px-16 pb-6 pt-8">
       <span className="font-medium text-3xl">Peals of Azerbaijani cinema</span>
       <div>------------TimeLine------------</div>
       <div className="p-16 flex justify-between">
