@@ -8,11 +8,14 @@ const CommingSoon = () => {
       <div className="flex justify-between p-2 py-7">
         <span className="font-medium text-3xl">Comming soon</span>
         <span className="font-medium text-lg cursor-pointer">
-          <Link to="/comming-soon">see more</Link>
+          <Link to="/comming-soon">
+            see more
+            <i className="fas fa-arrow-right fa-1x px-2" />
+          </Link>
         </span>
       </div>
 
-      <div className="flex justify-between">
+      <div className="h-96 flex justify-between">
         <MovieCard></MovieCard>
         <MovieCard></MovieCard>
         <MovieCard></MovieCard>

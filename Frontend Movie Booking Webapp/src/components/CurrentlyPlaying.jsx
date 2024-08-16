@@ -8,10 +8,13 @@ const CurrentlyPlaying = () => {
       <div className="flex justify-between px-2 py-7">
         <span className="font-medium text-3xl">Currently playing</span>
         <span className="font-medium text-lg cursor-pointer">
-          <Link to="/currently-playing">see more</Link>
+          <Link to="/currently-playing">
+            see more
+            <i className="fas fa-arrow-right fa-1x px-2" />
+          </Link>
         </span>
       </div>
-      <div className="flex justify-between">
+      <div className="h-96 flex justify-between">
         <MovieCard></MovieCard>
         <MovieCard></MovieCard>
         <MovieCard></MovieCard>
