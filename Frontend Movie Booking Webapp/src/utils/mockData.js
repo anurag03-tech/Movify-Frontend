@@ -169,7 +169,8 @@ const moviesData = [
     movieName: "Jawan",
     duration: "2h 35m",
     ticketPrice: 16.49,
-    imageUrl: "https://example.com/images/jawan.jpg",
+    imageUrl:
+      "https://filmfare.wwmindia.com/content/2023/aug/jawan21691407612.jpg",
     totalSeats: 300,
     availableSeats: 100,
     director: "Atlee",
@@ -229,7 +230,8 @@ const moviesData = [
     movieName: "Drishyam 2",
     duration: "2h 20m",
     ticketPrice: 13.49,
-    imageUrl: "https://example.com/images/drishyam2.jpg",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Drishyam_2_2022_film_poster.jpg/220px-Drishyam_2_2022_film_poster.jpg",
     totalSeats: 200,
     availableSeats: 90,
     director: "Jeethu Joseph",
@@ -249,7 +251,8 @@ const moviesData = [
     movieName: "Love Story",
     duration: "2h 10m",
     ticketPrice: 11.49,
-    imageUrl: "https://example.com/images/love_story.jpg",
+    imageUrl:
+      "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/2018/11/Wonder-Park-Movie-poster-1.jpg?resize=384%2C600&ssl=1",
     totalSeats: 150,
     availableSeats: 50,
     director: "Sekhar Kammula",

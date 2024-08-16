@@ -1,17 +1,14 @@
 import React from "react";
-import MainBanner from "./MainBanner";
 import CurrentlyPlaying from "./CurrentlyPlaying";
 import CommingSoon from "./CommingSoon";
 import PealsOfAzerbaijani from "./PealsOfAzerbaijani";
 import AboutUs from "./AboutUs";
 import LatestNews from "./LatestNews";
-import SlidingMovies from "./SlidingMovies";
 
 const Body = () => {
   return (
     <>
       <div className="">
-        <SlidingMovies></SlidingMovies>
         <CurrentlyPlaying></CurrentlyPlaying>
         <CommingSoon></CommingSoon>
         <PealsOfAzerbaijani></PealsOfAzerbaijani>

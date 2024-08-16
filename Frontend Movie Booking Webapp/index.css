@@ -10,3 +10,21 @@
     ", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans ", " Helvetica Neue
     ", sans-serif";
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}
