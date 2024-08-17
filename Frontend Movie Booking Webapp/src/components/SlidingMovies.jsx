@@ -39,7 +39,7 @@ const SlideImage = styled.img.attrs({
 
 const Button = styled.button.attrs({
   className:
-    "flex w-24 items-center justify-center px-2 py-1 text-base font-medium leading-6 text-white bg-black border border-white rounded-md shadow-sm hover:bg-white hover:text-black hover:border-black focus:outline-none absolute top-14 left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 group-hover:opacity-100",
+    "flex w-24 items-center justify-center px-2 py-1 text-base font-medium leading-6 text-white bg-black border border-white rounded-md shadow-sm hover:bg-white hover:text-black hover:border-black hover:font-semibold focus:outline-none absolute top-14 left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 group-hover:opacity-100",
 })``;
 
 const SlidingMovies = ({ CurrPlayingMovie }) => {
