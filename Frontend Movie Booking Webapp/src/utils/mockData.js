@@ -6,6 +6,7 @@ const moviesData = [
     ticketPrice: 12.99,
     imageUrl:
       "https://m.media-amazon.com/images/M/MV5BMjEyODY4MTY4MV5BMl5BanBnXkFtZTcwMjEwMDIyMQ@@._V1_.jpg",
+    trailerID: "hR1-ihzff3I",
     totalSeats: 200,
     availableSeats: 50,
     director: "John Doe",
@@ -26,6 +27,7 @@ const moviesData = [
     ticketPrice: 14.99,
     imageUrl:
       "https://vhsrevival.com/wp-content/uploads/2018/12/the-terminator-japanese-poster.jpg",
+    trailerID: "SJcs5xWeLKk",
     totalSeats: 300,
     availableSeats: 120,
     director: "Alice Johnson",
@@ -47,6 +49,7 @@ const moviesData = [
     ticketPrice: 11.99,
     imageUrl:
       "https://i.pinimg.com/736x/49/fa/52/49fa5217d48f1e4dc3a7f7ce99f78fa9.jpg",
+    trailerID: "QL2_qNu6qT8",
     totalSeats: 180,
     availableSeats: 40,
     director: "Robert Brown",
@@ -67,6 +70,7 @@ const moviesData = [
     ticketPrice: 9.99,
     imageUrl:
       "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/2018/11/Wonder-Park-Movie-poster-1.jpg?resize=384%2C600&ssl=1",
+    trailerID: "VML6rQWssSk",
     totalSeats: 250,
     availableSeats: 100,
     director: "Emily Davis",
@@ -88,6 +92,7 @@ const moviesData = [
     ticketPrice: 13.99,
     imageUrl:
       "https://i.pinimg.com/736x/49/fa/52/49fa5217d48f1e4dc3a7f7ce99f78fa9.jpg",
+    trailerID: "gF3gZicntIw",
     totalSeats: 220,
     availableSeats: 60,
     director: "Michael Lee",
@@ -108,6 +113,7 @@ const moviesData = [
     ticketPrice: 12.49,
     imageUrl:
       "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7433c024369343.56333149ce0fa.jpg",
+    trailerID: "A2OQ-f_LOHA",
     totalSeats: 170,
     availableSeats: 90,
     director: "Laura Wilson",
@@ -128,6 +134,7 @@ const moviesData = [
     ticketPrice: 8.99,
     imageUrl:
       "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/2018/11/Wonder-Park-Movie-poster-1.jpg?resize=384%2C600&ssl=1",
+    trailerID: "U3StfiqIWjk",
     totalSeats: 200,
     availableSeats: 120,
     director: "Daniel Martin",
@@ -150,6 +157,7 @@ const moviesData = [
     ticketPrice: 15.99,
     imageUrl:
       "https://m.media-amazon.com/images/M/MV5BMjEyODY4MTY4MV5BMl5BanBnXkFtZTcwMjEwMDIyMQ@@._V1_.jpg",
+    trailerID: "4xl9KfUg8Lc",
     totalSeats: 250,
     availableSeats: 80,
     director: "Siddharth Anand",
@@ -171,6 +179,7 @@ const moviesData = [
     ticketPrice: 16.49,
     imageUrl:
       "https://filmfare.wwmindia.com/content/2023/aug/jawan21691407612.jpg",
+    trailerID: "k8YiqM0Y-78",
     totalSeats: 300,
     availableSeats: 100,
     director: "Atlee",
@@ -192,6 +201,7 @@ const moviesData = [
     ticketPrice: 14.99,
     imageUrl:
       "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/2018/11/Wonder-Park-Movie-poster-1.jpg?resize=384%2C600&ssl=1",
+    trailerID: "GY4BgdUSpbE",
     totalSeats: 220,
     availableSeats: 70,
     director: "S. S. Rajamouli",
@@ -212,6 +222,7 @@ const moviesData = [
     ticketPrice: 12.99,
     imageUrl:
       "https://m.media-amazon.com/images/M/MV5BMjEyODY4MTY4MV5BMl5BanBnXkFtZTcwMjEwMDIyMQ@@._V1_.jpg",
+    trailerID: "kQDd1AhGIHk",
     totalSeats: 180,
     availableSeats: 60,
     director: "Karthik Subbaraj",
@@ -232,6 +243,7 @@ const moviesData = [
     ticketPrice: 13.49,
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Drishyam_2_2022_film_poster.jpg/220px-Drishyam_2_2022_film_poster.jpg",
+    trailerID: "cxA2y9Tgl7o",
     totalSeats: 200,
     availableSeats: 90,
     director: "Jeethu Joseph",
@@ -253,6 +265,7 @@ const moviesData = [
     ticketPrice: 11.49,
     imageUrl:
       "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/2018/11/Wonder-Park-Movie-poster-1.jpg?resize=384%2C600&ssl=1",
+    trailerID: "7vracgLyJwI",
     totalSeats: 150,
     availableSeats: 50,
     director: "Sekhar Kammula",

@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./components/Body.jsx";
 import CurrentlyPlaying from "./components/CurrentlyPlaying.jsx";
 import CommingSoon from "./components/CommingSoon.jsx";
+import BookTicket from "./components/BookTicket.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/",
         element: <Body />,
+      },
+      {
+        path: "/book",
+        element: <BookTicket />,
       },
       {
         path: "/currently-playing",

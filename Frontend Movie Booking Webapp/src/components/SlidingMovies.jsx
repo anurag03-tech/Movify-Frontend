@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import styled, { createGlobalStyle } from "styled-components";
+import { Link } from "react-router-dom";
 
 // Global styles for slider
 const GlobalStyle = createGlobalStyle`
@@ -41,13 +42,13 @@ const Button = styled.button.attrs({
     "flex w-24 items-center justify-center px-2 py-1 text-base font-medium leading-6 text-white bg-black border border-white rounded-md shadow-sm hover:bg-white hover:text-black hover:border-black focus:outline-none absolute top-14 left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 group-hover:opacity-100",
 })``;
 
-const SlidingMovies = () => {
+const SlidingMovies = ({ CurrPlayingMovie }) => {
   const data = moviesData;
-  const [playMovie, setPlayMovie] = useState(data[4]?.imageUrl);
+  const [playMovie, setPlayMovie] = CurrPlayingMovie;
 
   const handleMovieChange = (item) => {
-    console.log(item.imageUrl);
-    setPlayMovie(item.imageUrl);
+    console.log(item.trailerID);
+    setPlayMovie(item.trailerID);
   };
 
   const settings = {
@@ -99,7 +100,9 @@ const SlidingMovies = () => {
               onClick={() => handleMovieChange(item)}
             >
               <SlideImage src={item.imageUrl} alt={item.movieId} />
-              <Button>Book Now</Button>
+              <Link to="/book">
+                <Button>Book Now</Button>
+              </Link>
             </SlideContainer>
           ))}
         </SliderWrapper>

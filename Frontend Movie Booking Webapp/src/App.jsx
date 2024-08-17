@@ -9,7 +9,6 @@ function App() {
     <>
       <Header></Header>
       <MainBanner></MainBanner>
-      <SlidingMovies></SlidingMovies>
       <Outlet></Outlet>
       <Footer></Footer>
     </>
