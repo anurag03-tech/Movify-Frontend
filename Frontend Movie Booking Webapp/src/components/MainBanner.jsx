@@ -36,6 +36,7 @@ const MainBanner = () => {
       playerVars: {
         autoplay: 1,
         loop: 1,
+        playlist: playMovie, // Ensures looping of the same video
         controls: 0,
         modestbranding: 1,
         playsinline: 1,
