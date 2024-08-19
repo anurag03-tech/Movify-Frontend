@@ -4,7 +4,7 @@ import moviesData from "../utils/mockData";
 
 const MainBanner = () => {
   const data = moviesData;
-  const [playMovie, setPlayMovie] = useState(data[7]?.trailerID);
+  const [playMovie, setPlayMovie] = useState(data[0]?.trailerID);
   const [isMuted, setIsMuted] = useState(true);
   const playerRef = useRef(null);
 
@@ -37,7 +37,7 @@ const MainBanner = () => {
         autoplay: 1,
         loop: 1,
         playlist: playMovie, // Ensures looping of the same video
-        controls: 0,
+        controls: 1,
         modestbranding: 1,
         playsinline: 1,
         rel: 0,

@@ -7,6 +7,8 @@ import Body from "./components/Body.jsx";
 import CurrentlyPlaying from "./components/CurrentlyPlaying.jsx";
 import CommingSoon from "./components/CommingSoon.jsx";
 import BookTicket from "./components/BookTicket.jsx";
+import MainBanner from "./components/MainBanner.jsx";
+import Login from "./components/Login.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -18,12 +20,25 @@ const appRouter = createBrowserRouter([
         element: <Body />,
       },
       {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/signup",
+        element: <Login></Login>,
+      },
+      {
         path: "/book",
         element: <BookTicket />,
       },
       {
         path: "/currently-playing",
-        element: <CurrentlyPlaying />,
+        element: (
+          <>
+            <MainBanner></MainBanner>
+            <CurrentlyPlaying />
+          </>
+        ),
       },
       {
         path: "/comming-soon",

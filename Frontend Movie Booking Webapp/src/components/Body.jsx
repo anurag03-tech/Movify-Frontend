@@ -4,11 +4,13 @@ import CommingSoon from "./CommingSoon";
 import PealsOfAzerbaijani from "./PealsOfAzerbaijani";
 import AboutUs from "./AboutUs";
 import LatestNews from "./LatestNews";
+import MainBanner from "./MainBanner";
 
 const Body = () => {
   return (
     <>
       <div className="">
+        <MainBanner></MainBanner>
         <CurrentlyPlaying></CurrentlyPlaying>
         <CommingSoon></CommingSoon>
         <PealsOfAzerbaijani></PealsOfAzerbaijani>
