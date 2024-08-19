@@ -9,6 +9,7 @@ import CommingSoon from "./components/CommingSoon.jsx";
 import BookTicket from "./components/BookTicket.jsx";
 import MainBanner from "./components/MainBanner.jsx";
 import Login from "./components/Login.jsx";
+import UserProfile from "./components/UserProfile.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/signup",
         element: <Login></Login>,
+      },
+      {
+        path: "/profile",
+        element: <UserProfile></UserProfile>,
       },
       {
         path: "/book",

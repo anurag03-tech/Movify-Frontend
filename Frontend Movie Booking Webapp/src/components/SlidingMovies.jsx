@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import styled, { createGlobalStyle } from "styled-components";
 import { Link } from "react-router-dom";
 
-// Global styles for slider
 const GlobalStyle = createGlobalStyle`
   .slider .slick-slide {
     transition: transform 0.5s ease;
@@ -19,7 +18,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-// Styled components with Tailwind classes
 const Container = styled.div.attrs({
   className: "h-72 w-full absolute z-10 top-3/4",
 })``;
@@ -52,13 +50,13 @@ const SlidingMovies = ({ CurrPlayingMovie }) => {
   const [playMovie, setPlayMovie] = CurrPlayingMovie;
   const sliderRef = useRef(null);
 
-  // Update playMovie based on the center slide
+  // update playMovie based on the center slide
   const updatePlayMovie = useCallback(() => {
     const centerIndex = sliderRef.current.innerSlider.state.currentSlide;
     setPlayMovie(data[centerIndex].trailerID);
   }, [data, setPlayMovie]);
 
-  // Handle slide change
+  // handle slide change
   const handleAfterChange = useCallback(() => {
     updatePlayMovie();
   }, [updatePlayMovie]);
@@ -104,7 +102,7 @@ const SlidingMovies = ({ CurrPlayingMovie }) => {
   return (
     <>
       <GlobalStyle />
-      <Container>
+      <Container className="top-2/3">
         <SliderWrapper ref={sliderRef} {...settings}>
           {data.map((item) => (
             <SlideContainer key={item.movieId}>
