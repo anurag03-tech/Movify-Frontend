@@ -4,12 +4,12 @@ import App from "./App.jsx";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./components/Body.jsx";
-import CurrentlyPlaying from "./components/CurrentlyPlaying.jsx";
-import CommingSoon from "./components/CommingSoon.jsx";
 import BookTicket from "./components/BookTicket.jsx";
 import MainBanner from "./components/MainBanner.jsx";
 import Login from "./components/Login.jsx";
 import UserProfile from "./components/UserProfile.jsx";
+import AllMovies from "./components/AllMovies.jsx";
+import AboutUs from "./components/AboutUs.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -38,16 +38,15 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/currently-playing",
-        element: (
-          <>
-            <MainBanner></MainBanner>
-            <CurrentlyPlaying />
-          </>
-        ),
+        element: <AllMovies category={"Currently Playing"} />,
       },
       {
         path: "/comming-soon",
-        element: <CommingSoon />,
+        element: <AllMovies category={"Comming Soon"} />,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
       },
     ],
   },

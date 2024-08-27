@@ -11,10 +11,15 @@ const Header = () => {
           <img src={Logo} className="h-full w-auto"></img>
         </Link>
         <div className="px-5 font-medium">
-          <span className="m-2">Currently Playing</span>
-          <span className="m-2">Comming Soon</span>
-          <span className="m-2">Theater Available</span>
-          <span className="m-2">About</span>
+          <Link to="/currently-playing">
+            <span className="m-2">Currently Playing</span>
+          </Link>
+          <Link to="/comming-soon">
+            <span className="m-2">Comming Soon</span>
+          </Link>
+          <Link to="/about">
+            <span className="m-2">About</span>
+          </Link>
         </div>
       </div>
 

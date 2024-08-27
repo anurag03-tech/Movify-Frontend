@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Profile = styled.div.attrs({
   className:
@@ -29,10 +30,12 @@ const ProfileDropdown = () => {
         <i className="p-2 fas fa-chevron-down self-center"></i>
       </Profile>
       <DropdownMenu>
-        <DropdownItem className="border-b">
-          <i className="fas fa-user  me-3"></i>
-          Profile
-        </DropdownItem>
+        <Link to="/profile">
+          <DropdownItem className="border-b">
+            <i className="fas fa-user  me-3"></i>
+            Profile
+          </DropdownItem>
+        </Link>
         <DropdownItem className="border-b ">
           <i className="fas fa-moon me-3"></i>
           Dark Mode

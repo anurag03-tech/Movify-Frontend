@@ -1,8 +1,10 @@
 import React from "react";
 import MovieCard from "./MovieCard";
 import { Link } from "react-router-dom";
+import moviesData from "../utils/mockData";
 
 const CommingSoon = () => {
+  const data = moviesData;
   return (
     <div className="w-full h-auto px-16 py-8">
       <div className="flex justify-between p-2 py-7">
@@ -15,11 +17,32 @@ const CommingSoon = () => {
         </span>
       </div>
 
-      <div className="h-96 flex justify-between">
-        <MovieCard></MovieCard>
-        <MovieCard></MovieCard>
-        <MovieCard></MovieCard>
-        <MovieCard></MovieCard>
+      <div className="h-full flex justify-between">
+        <MovieCard
+          url={data[0].imageUrl}
+          title="movie Name"
+          buttonText="Notify"
+        ></MovieCard>
+        <MovieCard
+          url={data[1].imageUrl}
+          title="movie Name"
+          buttonText="Notify"
+        ></MovieCard>
+        <MovieCard
+          url={data[2].imageUrl}
+          title="movie Name"
+          buttonText="Notify"
+        ></MovieCard>
+        <MovieCard
+          url={data[3].imageUrl}
+          title="movie Name"
+          buttonText="Notify"
+        ></MovieCard>
+        <MovieCard
+          url={data[4].imageUrl}
+          title="movie Name"
+          buttonText="Notify"
+        ></MovieCard>
       </div>
     </div>
   );
